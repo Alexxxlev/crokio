@@ -1,0 +1,43 @@
+.timeline-box {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    width: auto;
+    height: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    /* плашка-бегунок */
+    background: #c1c1c1;
+  }
+  &::-webkit-scrollbar-track {
+    /* фон */
+    background: #f9f9f9;
+  }
+}
+
+.timeline {
+  width: 2500px;
+  min-height: 400px;
+  height: auto;
+
+  .google-visualization-tooltip {
+    padding: 10px 5px;
+    width: 300px;
+    border: 2px solid #000;
+    background-color: #4b4b4b;
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+
+    @media(max-width: 650px) {
+      padding: 5px;
+      width: 180px;
+      border: 1px solid #000;
+      font-size: 11px;
+      line-height: 19px;
+    }
+  }
+}
