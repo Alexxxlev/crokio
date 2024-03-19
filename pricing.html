@@ -10,13 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Crokio</title>
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper wrapper--pricing">
     <div class="calendly" id="calendly">
       <div class="calendly-inline-widget" data-url="https://calendly.com/crokio" id="modal"></div>
       <span class="calendly-close">X</span>
@@ -66,1058 +68,501 @@
       </div>
     </header>
     <main class="main">
-      <section class="top">
+      <section class="top top--pricing">
         <div class="container">
           <div class="top-inner">
             <div class="top__heading">
-              <h1 class="top__heading-title">Predictable Pricing.<br>
+              <h1 class="top__heading-title" id="rates">Predictable Pricing.<br>
                 No Surprises.
               </h1>
-              <p class="top__heading-text">Choose the nature of your business or the type of industry you are
-                involved in?
+              <p class="top__heading-text fw-500">These packages are designed for entrepreneurs, Small and Medium-sized
+                Enterprises, e-businesses and startups. They are
+                designed for those who want to strengthen their online and offline presence, engage their target
+                audience and drive
+                business growth with powerful web development and marketing strategies.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="main__pricing" id="pricing">
+      <div class="rates">
         <div class="container">
-          <div class="pricing__inner">
-            <div class="card__box">
-              <a class="card__box-item price-btns bt" href="#inner">
-                <div class="card__box-content">
-                  <h2 class="card__box-title">
-                    <span></span>
-                    Essential
-                  </h2>
-                  <p class="card__box-text">The Essential Package is designed to cater to small and medium-sized
-                    businesses. It includes essential web development
-                    and marketing services to establish a strong online presence.</p>
+          <div class="rates__inner">
+            <div class="rates__slider swiper">
+              <div class="rates__slider-wrapper swiper-wrapper">
+                <div class="rates__item rates__item--core swiper-slide">
+                  <div class="rates__item-box">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        core
+                        <span>$1,050/ month</span>
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Facebook Management</li>
+                      <li class="rates__item-listitem">Instagram Management</li>
+                      <li class="rates__item-listitem"><span>12</span> posts /m</li>
+                      <li class="rates__item-listitem"><span>4</span> reels /m</li>
+                      <li class="rates__item-listitem"><span>16</span> stories /m</li>
+                      <li class="rates__item-listitem">Social Media Advertising</li>
+                      <li class="rates__item-listitem">Monthly Reporting</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Promo Campaign</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Google Advertising</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Email Marketing</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Website Support & SEO</li>
+                    </ul>
+                    <div class="rates__item-footer">
+                      <a class="rates__item-btn button" href="#">Get started</a>
+                      <div class="rates__item-sale">and get <span>10% off</span><br>
+                        all crokio services</div>
+                    </div>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Digital Advertising
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Facebook Ads, Instagram Ads</li>
+                      <li class="rates__item-listitem">One Meta Campaign per month</li>
+                      <li class="rates__item-listitem">Ads Copywriting (<span>2 versions</span>)</li>
+                      <li class="rates__item-listitem">Advanced Campaign Management and A/B Testing</li>
+                      <li class="rates__item-listitem">Custom design for advertising</li>
+                      <li class="rates__item-listitem">Monthly Reporting</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Google Advertising Camapign</li>
+                    </ul>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Graphic Design
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Custom Digital ads</li>
+                      <li class="rates__item-listitem">Custom Social Media Design</li>
+                      <li class="rates__item-listitem"><span>4</span> design revisions</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Custom flayers or posters design
+                      </li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Branding & Visual Identity</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Landing Page Development for Google
+                        Ads</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">E-Mail Marketing design</li>
+                    </ul>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Marketing
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Marketing Strategy and Research</li>
+                      <li class="rates__item-listitem">Content Marketing</li>
+                      <li class="rates__item-listitem">SMM Marketing</li>
+                      <li class="rates__item-listitem">Media Buy</li>
+                      <li class="rates__item-listitem">Reporting & Tracking</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Promotional Campaigns</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Brand Marketing</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Reputation & Crisis Management</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Sales Promotion</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">E-Mail Marketing</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Website updates & maintenance
+                        (once/week)</li>
+                    </ul>
+                  </div>
                 </div>
-              </a>
-              <a class="card__box-item price-btns bt active" href="#inner">
-                <div class="card__box-content">
-                  <h2 class="card__box-title">
-                    <span></span>
-                    Advanced
-                  </h2>
-                  <p class="card__box-text">The Advanced Package - an expanded range of digital services designed for
-                    any-sized business, offers advanced web
-                    development and the best marketing strategies.</p>
+                <div class="rates__item rates__item--pro swiper-slide">
+                  <div class="rates__item-box">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Professional
+                        <span>$1,550/ month</span>
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Facebook Management</li>
+                      <li class="rates__item-listitem">Instagram Management</li>
+                      <li class="rates__item-listitem"><span>14</span> posts /m</li>
+                      <li class="rates__item-listitem"><span>8</span> reels /m</li>
+                      <li class="rates__item-listitem"><span>20</span> stories /m</li>
+                      <li class="rates__item-listitem">Social Media Advertising</li>
+                      <li class="rates__item-listitem">Monthly Reporting</li>
+                      <li class="rates__item-listitem"><span>one</span> Promo Campaign</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Google Advertising</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Email Marketing</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Website Support & SEO</li>
+                    </ul>
+                    <div class="rates__item-footer">
+                      <a class="rates__item-btn button" href="#">Get started</a>
+                      <div class="rates__item-sale">and get <span>20% off</span><br>
+                        all crokio services</div>
+                    </div>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Digital Advertising
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Facebook Ads, Instagram Ads</li>
+                      <li class="rates__item-listitem">One Meta Campaign per month</li>
+                      <li class="rates__item-listitem">Ads Copywriting (<span>3 versions</span>)</li>
+                      <li class="rates__item-listitem">Advanced Campaign Management and A/B Testing</li>
+                      <li class="rates__item-listitem">Custom design for advertising</li>
+                      <li class="rates__item-listitem">Monthly Reporting</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Google Advertising Camapign</li>
+                    </ul>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Graphic Design
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Custom Digital ads</li>
+                      <li class="rates__item-listitem">Custom Social Media Design</li>
+                      <li class="rates__item-listitem"><span>8</span> design revisions</li>
+                      <li class="rates__item-listitem"><span>one</span> Custom flayers or posters design
+                      </li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Branding & Visual Identity</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Landing Page Development for Google
+                        Ads</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">E-Mail Marketing design</li>
+                    </ul>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Marketing
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Marketing Strategy and Research</li>
+                      <li class="rates__item-listitem">Content Marketing</li>
+                      <li class="rates__item-listitem">SMM Marketing</li>
+                      <li class="rates__item-listitem">Media Buy</li>
+                      <li class="rates__item-listitem">Reporting & Tracking</li>
+                      <li class="rates__item-listitem"><span>one</span> Promotional Campaigns</li>
+                      <li class="rates__item-listitem">Brand Marketing</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Reputation & Crisis Management</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Sales Promotion</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">E-Mail Marketing</li>
+                      <li class="rates__item-listitem rates__item-listitem--disabled">Website updates & maintenance
+                        (once/week)</li>
+                    </ul>
+                  </div>
                 </div>
-              </a>
-              <a class="card__box-item price-btns bt" href="#inner">
-                <div class="card__box-content">
-                  <h2 class="card__box-title">
-                    <span></span>
-                    Enterprise
-                  </h2>
-                  <p class="card__box-text">The Enterprise Package is designed for businesses with unique requirements
-                    or complex projects. It offers tailor-made
-                    solutions to address specific needs.</p>
+                <div class="rates__item rates__item--supreme swiper-slide">
+                  <div class="rates__item-box">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Supreme
+                        <span>$2,950/ month</span>
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Facebook Management</li>
+                      <li class="rates__item-listitem">Instagram Management</li>
+                      <li class="rates__item-listitem"><span>16</span> posts /m</li>
+                      <li class="rates__item-listitem"><span>10</span> reels /m</li>
+                      <li class="rates__item-listitem"><span>20</span> stories /m</li>
+                      <li class="rates__item-listitem">Social Media Advertising</li>
+                      <li class="rates__item-listitem"><span>weekly</span> Reporting</li>
+                      <li class="rates__item-listitem"><span>two</span> Promo Campaign</li>
+                      <li class="rates__item-listitem">Google Advertising</li>
+                      <li class="rates__item-listitem">Email Marketing</li>
+                      <li class="rates__item-listitem">Website Support & SEO</li>
+                    </ul>
+                    <div class="rates__item-footer">
+                      <a class="rates__item-btn button" href="#">Get started</a>
+                      <div class="rates__item-sale">and get <span>30% off</span><br>
+                        all crokio services</div>
+                    </div>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Digital Advertising
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Facebook Ads, Instagram Ads</li>
+                      <li class="rates__item-listitem"><span>two</span> Meta Campaign per month</li>
+                      <li class="rates__item-listitem">Ads Copywriting (<span>4 versions</span>)</li>
+                      <li class="rates__item-listitem">Advanced Campaign Management and A/B Testing</li>
+                      <li class="rates__item-listitem">Custom design for advertising</li>
+                      <li class="rates__item-listitem"><span>weekly</span> Reporting</li>
+                      <li class="rates__item-listitem">Google Advertising Camapign</li>
+                    </ul>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Graphic Design
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Custom Digital ads</li>
+                      <li class="rates__item-listitem">Custom Social Media Design</li>
+                      <li class="rates__item-listitem"><span>10</span> design revisions</li>
+                      <li class="rates__item-listitem"><span>two</span> Custom flayers or posters design
+                      </li>
+                      <li class="rates__item-listitem">Branding & Visual Identity</li>
+                      <li class="rates__item-listitem">Landing Page Development for Google
+                        Ads</li>
+                      <li class="rates__item-listitem">E-Mail Marketing design</li>
+                    </ul>
+                  </div>
+                  <div class="rates__item-box rates__item-box--extra">
+                    <div class="rates__item-header">
+                      <h3 class="rates__item-title">
+                        Marketing
+                      </h3>
+                    </div>
+                    <ul class="rates__item-list">
+                      <li class="rates__item-listitem">Marketing Strategy and Research</li>
+                      <li class="rates__item-listitem">Content Marketing</li>
+                      <li class="rates__item-listitem">SMM Marketing</li>
+                      <li class="rates__item-listitem">Media Buy</li>
+                      <li class="rates__item-listitem">Reporting & Tracking</li>
+                      <li class="rates__item-listitem"><span>two</span> Promotional Campaigns</li>
+                      <li class="rates__item-listitem">Brand Marketing</li>
+                      <li class="rates__item-listitem">Reputation & Crisis Management</li>
+                      <li class="rates__item-listitem">Sales Promotion</li>
+                      <li class="rates__item-listitem">E-Mail Marketing</li>
+                      <li class="rates__item-listitem">Website updates & maintenance
+                        (once/week)</li>
+                    </ul>
+                  </div>
                 </div>
-              </a>
+              </div>
+            </div>
+            <div class="showmore-box">
+              <div class="showmore-box__wrapper">
+                <a class="showmore showmore--more btn" href="#rates" value="Show more">Show more</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="main__inclusive">
+      </div>
+      <div class="feedback feedback--pricing section">
         <div class="container">
-          <div class="inclusive__inner" id="inner">
-            <div class="inclusive-wrapper" id="business">
-              <div class="inclusive__box box-hover">
-                <div class="inclusive__top">
-                  <div class="inclusive__tabs-content">
-                    <div class="inclusive__top-box inclusive__top-box--default active" data-tab-content="1">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in Essential Package</h2>
-                            <p class="inclusive__heading-text">Special Essential Package primarily caters to
-                              entrepreneurs and businesses in various industries, including startups,
-                              local businesses, and professional service providers. For those who seek to ensure a
-                              strong online and offline presence,
-                              attract their target audience and stimulate business growth through effective web
-                              development and marketing strategies.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__tabs--mobile inclusive__tabs--first">
-                          <a class="inclusive__tabs-item inclusive__tabs-item--default active" href="#" data-tab="1">monthy</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="2">half-yearly</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="3">annually</a>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <div class="inclusive__price-titlebox">
-                            <h1 class="inclusive__price-title"><span>$</span>2<span class="comma">,</span>999</h1>
-                          </div>
-                          <p class="inclusive__price-text">From 60 hours</p>
-                          <button class="inclusive__price-btn button">Subscribe Now</button>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inclusive__top-box" data-tab-content="2">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in Essential Package</h2>
-                            <p class="inclusive__heading-text">Special Essential Package primarily caters to
-                              entrepreneurs and businesses in various industries, including startups,
-                              local businesses, and professional service providers. For those who seek to ensure a
-                              strong online and offline presence,
-                              attract their target audience and stimulate business growth through effective web
-                              development and marketing strategies.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__tabs--mobile">
-                          <a class="inclusive__tabs-item" href="#" data-tab="1">monthy</a>
-                          <a class="inclusive__tabs-item active" href="#" data-tab="2">half-yearly</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="3">annually</a>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <div class="inclusive__price-titlebox">
-                            <div class="inclusive__price-sale">12% off</div>
-                            <h1 class="inclusive__price-title"><span>$</span>15<span class="comma">,</span>835</h1>
-                          </div>
-                          <p class="inclusive__price-text">From 360 hours</p>
-                          <button class="inclusive__price-btn button">Subscribe Now</button>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inclusive__top-box" data-tab-content="3">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in Essential Package</h2>
-                            <p class="inclusive__heading-text">Special Essential Package primarily caters to
-                              entrepreneurs and businesses in various industries, including startups,
-                              local businesses, and professional service providers. For those who seek to ensure a
-                              strong online and offline presence,
-                              attract their target audience and stimulate business growth through effective web
-                              development and marketing strategies.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__tabs--mobile">
-                          <a class="inclusive__tabs-item" href="#" data-tab="1">monthy</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="2">half-yearly</a>
-                          <a class="inclusive__tabs-item active" href="#" data-tab="3">annually</a>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <div class="inclusive__price-titlebox">
-                            <div class="inclusive__price-sale">24% off</div>
-                            <h1 class="inclusive__price-title"><span>$</span>27<span class="comma">,</span>351</h1>
-                          </div>
-                          <p class="inclusive__price-text">From 720 hours</p>
-                          <button class="inclusive__price-btn button">Subscribe Now</button>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__tabs">
-                    <a class="inclusive__tabs-item inclusive__tabs-item--default active" href="#" data-tab="1">monthy</a>
-                    <a class="inclusive__tabs-item" href="#" data-tab="2">half-yearly</a>
-                    <a class="inclusive__tabs-item" href="#" data-tab="3">annually</a>
-                  </div>
+          <div class="feedback__inner">
+            <div class="form-block">
+              <div class="form-box">
+                <div class="form-box__inner-title">
+                  <h3 class="form-box__title">Sign up for a free consultation to promote your brand</h3>
                 </div>
-                <div class="inclusive__main">
-                  <button class="inclusive__main-btn btn" id="acc-btn">What's included?</button>
-                  <div class="inclusive__info">
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Web Development</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Business Website Development</li>
-                          <li class="inclusive__info-item">Mobile App Development</li>
-                          <li class="inclusive__info-item">Maintenance & Support</li>
-                          <li class="inclusive__info-item">Search Engine Optimization</li>
-                          <li class="inclusive__info-item">Conversion Rate Optimization</li>
-                          <li class="inclusive__info-item">Updates, Patches, & Backups</li>
-                          <li class="inclusive__info-item">Analytics Integration</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Marketing</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Marketing Campaign concepting</li>
-                          <li class="inclusive__info-item">Social Media Management</li>
-                          <li class="inclusive__info-item">Content Management</li>
-                          <li class="inclusive__info-item">Reputation & Crisis Management</li>
-                          <li class="inclusive__info-item">Online & Offline Events Management</li>
-                          <li class="inclusive__info-item">Campaign Execution & Optimization</li>
-                          <li class="inclusive__info-item">Reporting & Tracking</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Design</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Branding & Visual Identity</li>
-                          <li class="inclusive__info-item">Illustration Design</li>
-                          <li class="inclusive__info-item">Presentation & Catalogs design</li>
-                          <li class="inclusive__info-item">Web Design</li>
-                          <li class="inclusive__info-item">Digital ads & Social Media Design</li>
-                          <li class="inclusive__info-item">Motion design & Video production</li>
-                          <li class="inclusive__info-item">Print, packaging & merch</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Advertising</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Google Ads Campaign</li>
-                          <li class="inclusive__info-item">Social Media Advertising</li>
-                          <li class="inclusive__info-item">E-mail Sales Campaign</li>
-                          <li class="inclusive__info-item">Print Advertising</li>
-                          <li class="inclusive__info-item">Outdoor Advertising</li>
-                        </ul>
-                      </div>
-                    </div>
+                <form class="form" action="/">
+                  <div class="form__row">
+                    <div class="form__title">Name</div>
+                    <input class="form__input input" type="text">
                   </div>
-                  <div class="inclusive__info-note">
-                    <p>Our Essential package will be uniquely designed for you, offering customized tailored to your
-                      specific needs and goals,
-                      providing a customized solution for your online business.</p>
+                  <div class="form__row">
+                    <div class="form__title">Phone number</div>
+                    <input class="form__input input" type="number">
                   </div>
-                </div>
+                  <div class="form__row">
+                    <div class="form__title">e-mail</div>
+                    <input class="form__input input" type="email">
+                  </div>
+                  <button class="form__btn btn" type="submit">Send</button>
+                </form>
               </div>
-            </div>
-            <div class="inclusive-wrapper" id="commerce">
-              <div class="inclusive__box active box-hover">
-                <div class="inclusive__top">
-                  <div class="inclusive__tabs-content">
-                    <div class="inclusive__top-box inclusive__top-box--default active" data-tab-content="1">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in
-                              Advanced Package</h2>
-                            <p class="inclusive__heading-text">Unique Advanced Package is specially crafted for any type
-                              of industry, including E-Commerce companies providing a wide
-                              range of advantages and exclusively personalized solutions to establish a commanding
-                              online and offline presence,
-                              effortlessly attract and engage their target audience, and ignite rapid business growth
-                              through highly effective and
-                              tailored web development and marketing strategies.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__tabs--mobile inclusive__tabs--first">
-                          <a class="inclusive__tabs-item inclusive__tabs-item--default active" href="#" data-tab="1">monthy</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="2">half-yearly</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="3">annually</a>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <div class="inclusive__price-titlebox">
-                            <h1 class="inclusive__price-title"><span>$</span>4<span class="comma">,</span>999</h1>
-                          </div>
-                          <p class="inclusive__price-text">From 100 hours</p>
-                          <button class="inclusive__price-btn button">Subscribe Now</button>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inclusive__top-box" data-tab-content="2">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in
-                              Advanced Package</h2>
-                            <p class="inclusive__heading-text">Unique Advanced Package is specially crafted for any type
-                              of industry, including E-Commerce companies providing a wide
-                              range of advantages and exclusively personalized solutions to establish a commanding
-                              online and offline presence,
-                              effortlessly attract and engage their target audience, and ignite rapid business growth
-                              through highly effective and
-                              tailored web development and marketing strategies.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__tabs--mobile">
-                          <a class="inclusive__tabs-item" href="#" data-tab="1">monthy</a>
-                          <a class="inclusive__tabs-item active" href="#" data-tab="2">half-yearly</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="3">annually</a>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <div class="inclusive__price-titlebox">
-                            <div class="inclusive__price-sale">12% off</div>
-                            <h1 class="inclusive__price-title"><span>$</span>26<span class="comma">,</span>395</h1>
-                          </div>
-                          <p class="inclusive__price-text">From 600 hours</p>
-                          <button class="inclusive__price-btn button">Subscribe Now</button>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inclusive__top-box" data-tab-content="3">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in
-                              Advanced Package</h2>
-                            <p class="inclusive__heading-text">Unique Advanced Package is specially crafted for any type
-                              of industry, including E-Commerce companies providing a wide
-                              range of advantages and exclusively personalized solutions to establish a commanding
-                              online and offline presence,
-                              effortlessly attract and engage their target audience, and ignite rapid business growth
-                              through highly effective and
-                              tailored web development and marketing strategies.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__tabs--mobile">
-                          <a class="inclusive__tabs-item" href="#" data-tab="1">monthy</a>
-                          <a class="inclusive__tabs-item" href="#" data-tab="2">half-yearly</a>
-                          <a class="inclusive__tabs-item active" href="#" data-tab="3">annually</a>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <div class="inclusive__price-titlebox">
-                            <div class="inclusive__price-sale">24% off</div>
-                            <h1 class="inclusive__price-title"><span>$</span>45<span class="comma">,</span>591</h1>
-                          </div>
-                          <p class="inclusive__price-text">From 1200 hours</p>
-                          <button class="inclusive__price-btn button">Subscribe Now</button>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__tabs">
-                    <a class="inclusive__tabs-item inclusive__tabs-item--default active" href="#" data-tab="1">monthy</a>
-                    <a class="inclusive__tabs-item" href="#" data-tab="2">half-yearly</a>
-                    <a class="inclusive__tabs-item" href="#" data-tab="3">annually</a>
-                  </div>
+              <div class="form-sent">
+                <img class="form-sent__img" src="assets/images/icons/form.png" alt="">
+                <div class="form-sent__title">The first step to successful <br> cooperation with us has been taken!
                 </div>
-                <div class="inclusive__main">
-                  <button class="inclusive__main-btn btn" id="acc-btn">What's included?</button>
-                  <div class="inclusive__info">
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Web Development</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Business/Store Website Development</li>
-                          <li class="inclusive__info-item">Mobile App Development</li>
-                          <li class="inclusive__info-item">Updates, Patches, & Backups</li>
-                          <li class="inclusive__info-item">Analytics Integration</li>
-                          <li class="inclusive__info-item">Search Engine Optimization</li>
-                          <li class="inclusive__info-item">E-commerce Functionality</li>
-                          <li class="inclusive__info-item">Maintenance & Support</li>
-                          <li class="inclusive__info-item">Conversion Rate Optimization</li>
-                          <li class="inclusive__info-item">CRM Integration</li>
-                          <li class="inclusive__info-item">Quality Assurance & Testing</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Marketing</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Marketing Campaign concepting</li>
-                          <li class="inclusive__info-item">Social Media Management</li>
-                          <li class="inclusive__info-item">Campaign Execution & Optimization</li>
-                          <li class="inclusive__info-item">Reputation & Crisis Management</li>
-                          <li class="inclusive__info-item">Online Store Managment</li>
-                          <li class="inclusive__info-item">Content Managment</li>
-                          <li class="inclusive__info-item">Influencer Marketing</li>
-                          <li class="inclusive__info-item">ROI Conversion</li>
-                          <li class="inclusive__info-item">Online & Offline Events Management</li>
-                          <li class="inclusive__info-item">Custom Reporting & Tracking</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Design</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Branding & Visual Identity</li>
-                          <li class="inclusive__info-item">Illustration Design</li>
-                          <li class="inclusive__info-item">Presentation & Catalogs design</li>
-                          <li class="inclusive__info-item">Email Design</li>
-                          <li class="inclusive__info-item">Web Design</li>
-                          <li class="inclusive__info-item">Digital ads & Social Media Design</li>
-                          <li class="inclusive__info-item">Photography & Video Production</li>
-                          <li class="inclusive__info-item">Print, packaging & merch</li>
-                          <li class="inclusive__info-item">3D design</li>
-                          <li class="inclusive__info-item">Motion design</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Advertising</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Google Ads Campaign</li>
-                          <li class="inclusive__info-item">Social Media Advertising</li>
-                          <li class="inclusive__info-item">E-mail Sales Campaign</li>
-                          <li class="inclusive__info-item">Print Advertising</li>
-                          <li class="inclusive__info-item">Outdoor Advertising</li>
-                          <li class="inclusive__info-item">Exhibitions & Promotions</li>
-                          <li class="inclusive__info-item">SMS Advertising</li>
-                          <li class="inclusive__info-item">Direct Mail Advertising</li>
-                          <li class="inclusive__info-item">Advertising of Sponsored Events</li>
-                          <li class="inclusive__info-item">Native Advertising</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__info-note">
-                    <p>Our Advanced package will be uniquely designed for you, offering customized customization
-                      tailored to your specific
-                      needs and goals, providing a customized solution for your online business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="inclusive-wrapper" id="custom">
-              <div class="inclusive__box box-hover">
-                <div class="inclusive__top inclusive__top--custom">
-                  <div class="inclusive__tabs-content">
-                    <div class="inclusive__top-box inclusive__top-box--custom active">
-                      <img class="inclusive__img-first" src="images/servi/web-ico.png" alt="">
-                      <div class="inclusive__content">
-                        <div class="inclusive__box-content">
-                          <div class="inclusive__heading">
-                            <h2 class="inclusive__heading-title">All Inclusive in Enterprise Package</h2>
-                            <p class="inclusive__heading-text">The personalized Enterprise package is designed for
-                              companies with unique requirements or complex projects that need
-                              customized solutions for web development, advanced functionality, and specialized
-                              integrations to meet their needs and
-                              goals.</p>
-                          </div>
-                        </div>
-                        <div class="inclusive__box-price">
-                          <h1 class="inclusive__price-title">CUSTOM PRICE</h1>
-                          <a class="inclusive__price-btn button" href="#">Book a Call</a>
-                          <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="inclusive__main">
-                  <button class="inclusive__main-btn btn" id="acc-btn">What's included?</button>
-                  <div class="inclusive__info">
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Web Development</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Custom Software Development</li>
-                          <li class="inclusive__info-item">Businnes Websites
-                          </li>
-                          <li class="inclusive__info-item">E-Commerce Websites
-                          </li>
-                          <li class="inclusive__info-item">Mobile Apps Development
-                          </li>
-                          <li class="inclusive__info-item">Maintenance and Support
-                          </li>
-                          <li class="inclusive__info-item">CRM Integration
-                          </li>
-                          <li class="inclusive__info-item">CMS Integration
-                          </li>
-                          <li class="inclusive__info-item">Front-End Development
-                          </li>
-                          <li class="inclusive__info-item">Back-End Development
-                          </li>
-                          <li class="inclusive__info-item">Quality Assurance & Testing
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Marketing</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Customized Marketing Strategy
-                          </li>
-                          <li class="inclusive__info-item">Social Media Management
-                          </li>
-                          <li class="inclusive__info-item">Content Management
-                          </li>
-                          <li class="inclusive__info-item">Reputation & Crisis Management
-                          </li>
-                          <li class="inclusive__info-item">Campaign Execution & Optimization
-                          </li>
-                          <li class="inclusive__info-item">Branding & Positioning
-                          </li>
-                          <li class="inclusive__info-item">ROI Conversion
-                          </li>
-                          <li class="inclusive__info-item">Online & Offline Events Management
-                          </li>
-                          <li class="inclusive__info-item">Custom Reporting & Tracking
-                          </li>
-                          <li class="inclusive__info-item">Market Research & Analysis
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Design</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Branding & Visual Identity
-                          </li>
-                          <li class="inclusive__info-item">Illustration Design</li>
-                          <li class="inclusive__info-item">Presentation & Catalogs design</li>
-                          <li class="inclusive__info-item">Email Design</li>
-                          <li class="inclusive__info-item">Web Design</li>
-                          <li class="inclusive__info-item">Digital ads & Social Media Design</li>
-                          <li class="inclusive__info-item">Photography & Video Production</li>
-                          <li class="inclusive__info-item">Print, packaging & merch</li>
-                          <li class="inclusive__info-item">3D design</li>
-                          <li class="inclusive__info-item">Motion design</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="inclusive__info-box">
-                      <div class="inclusive__info-inner">
-                        <h3 class="inclusive__info-title">Advertising</h3>
-                        <ul class="inclusive__info-list">
-                          <li class="inclusive__info-item">Google Ads Campaign</li>
-                          <li class="inclusive__info-item">Social Media Advertising</li>
-                          <li class="inclusive__info-item">E-mail Sales Campaign</li>
-                          <li class="inclusive__info-item">Print Advertising</li>
-                          <li class="inclusive__info-item">Outdoor Advertising</li>
-                          <li class="inclusive__info-item">Exhibitions & Promotions</li>
-                          <li class="inclusive__info-item">SMS Advertising</li>
-                          <li class="inclusive__info-item">Direct Mail Advertising</li>
-                          <li class="inclusive__info-item">Advertising of Sponsored Events</li>
-                          <li class="inclusive__info-item">Native Advertising</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__info-note">
-                    <p>Our Enterprise Package is designed to provide a unique and tailored solution exclusively for you,
-                      offering customizable
-                      features and services that align with your specific needs and goals.</p>
-                  </div>
-                </div>
+                <div class="form-sent__descr">Our Manager will contact <br> you as soon as possible</div>
               </div>
             </div>
 
-            <div class="inclusive-wrapper" id="bus__disc-first">
-              <div class="inclusive-shadow"></div>
-              <div class="inclusive__box box-four">
-                <div class="inclusive__box-img">
-                  <img src="images/servi/web-ico.png" alt="" class="inclusive__img-first">
-                  <img src="images/servi/sun.png" alt="" class="inclusive-img-second">
-                </div>
-                <div class="inclusive__content">
-                  <div class="inclusive__box-content">
-                    <div class="inclusive__heading">
-                      <h2 class="inclusive__heading-title">All Inclusive in E-Commerce Package</h2>
-                      <p class="inclusive__heading-text">The e-commerce package is designed for businesses of any size
-                        who want to sell goods or services online and who need a comprehensive solution to create an
-                        efficient and secure online store, manage inventory, process orders, optimize conversion rates
-                        and develop their e-commerce business.</p>
-                    </div>
-                    <div class="inclusive__info">
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Strategy and Management
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Online store Design & Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Mobile App Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          CMS & SEO
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          CRM Integration
-                        </li>
-                      </ul>
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Promotion Marketing
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Google,Instagram & FB Ads
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Advertising Design
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Conversion Optimization
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Pause or Cancel Anytime
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="inclusive__info-acc">
-                      <button class="inclusive__btn btn" id="ac-btn">What's included?</button>
-                      <div id="first-acc">
-                        <ul class="inclusive__acc">
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Strategy and Management
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Online store Design & Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Mobile App Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            CMS & SEO
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            CRM Integration
-                          </li>
-                        </ul>
-                        <ul class="inclusive__acc acc-sec">
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Promotion Marketing
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Google,Instagram & FB Ads
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Advertising Design
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Conversion Optimization
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Pause or Cancel Anytime
-                          </li>
-                        </ul>
+          </div>
+        </div>
+        <span class="section-decor"></span>
+      </div>
+      <div class="addservices section">
+        <div class="container">
+          <div class="addservices__inner">
+            <div class="addservices__heading heading">
+              <h1 class="addservices__heading-title heading__title">Additional services</h1>
+              <p class="addservices__heading-text heading__text">We offer a generous discount of up to 30% on additional
+                services for our valued Customers.  Our company specializes in a
+                variety of services including Web Development, Design, Marketing, and Advertising. If you're interested,
+                you can request
+                a price list for individual services.</p>
+            </div>
+            <div class="addservices__content">
+              <div class="addservices__content-inner">
+                <div class="addservices__row">
+                  <div class="addservices__left mt-100">
+                    <h3 class="addservices__left-title">Marketing</h3>
+                    <ul class="addservices__left-list">
+                      <li class="addservices__left-listitem">YouTube & TikTok Management</li>
+                      <li class="addservices__left-listitem">Google Ads Management</li>
+                      <li class="addservices__left-listitem">Social Media <span>Accounts</span> 
+                        Management <span>(pre-sales)</span></li>
+                    </ul>
+                  </div>
+                  <div class="addservices__items">
+                    <div class="addservices__item addservices__item--regular">
+                      <div class="addservices__item-header">
+                        <h4 class="addservices__item-title">Regular <br> price from</h4>
                       </div>
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$700</li>
+                        <li class="addservices__item-listitem">$700</li>
+                        <li class="addservices__item-listitem">$900</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--core">
+                      <div class="addservices__item-header">
+                        <h4 class="addservices__item-title">"Core” <br> price from</h4>
+                        <div class="addservices__item-sale"><span>10</span>% off</div>
+                      </div>
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$630</li>
+                        <li class="addservices__item-listitem">$630</li>
+                        <li class="addservices__item-listitem">$810</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--pro">
+                      <div class="addservices__item-header">
+                        <h4 class="addservices__item-title">"Professionale” <br> price from</h4>
+                        <div class="addservices__item-sale"><span>20</span>% off</div>
+                      </div>
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$560</li>
+                        <li class="addservices__item-listitem">$560</li>
+                        <li class="addservices__item-listitem">$720</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--supreme">
+                      <div class="addservices__item-header">
+                        <h4 class="addservices__item-title">"Supreme” <br> price from</h4>
+                        <div class="addservices__item-sale"><span>30</span>% off</div>
+                      </div>
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$490</li>
+                        <li class="addservices__item-listitem">$490</li>
+                        <li class="addservices__item-listitem">$630</li>
+                      </ul>
                     </div>
                   </div>
-                  <div class="inclusive__box-price">
-                    <h2 class="inclusive__price-sale">12% off</h2>
-                    <h1 class="inclusive__price-title first">$15,899/<span>6 month</span></h1>
-                    <button class="inclusive__price-btn button">Subscribe Now</button>
-                    <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
+                </div>
+                <div class="addservices__row">
+                  <div class="addservices__left">
+                    <h3 class="addservices__left-title">Design</h3>
+                    <ul class="addservices__left-list">
+                      <li class="addservices__left-listitem">Branding & Visual Identity</li>
+                      <li class="addservices__left-listitem">Short Video production <span>(Reels, Shorts)</span></li>
+                      <li class="addservices__left-listitem"><span>Presentations & Catalogs</span><span class="span-visible">print</span>  design</li>
+                    </ul>
+                  </div>
+                  <div class="addservices__items">
+                    <div class="addservices__item addservices__item--regular">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$500</li>
+                        <li class="addservices__item-listitem">$50</li>
+                        <li class="addservices__item-listitem">$150</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--core">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$450</li>
+                        <li class="addservices__item-listitem">$45</li>
+                        <li class="addservices__item-listitem">$135</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--pro">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$400</li>
+                        <li class="addservices__item-listitem">$40</li>
+                        <li class="addservices__item-listitem">$120</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--supreme">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$350</li>
+                        <li class="addservices__item-listitem">$35</li>
+                        <li class="addservices__item-listitem">$105</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div class="inclusive__btn-box">
-                  <a class="inclusive__btns button return" href="#inner">Return to monthly subscription</a>
-                  <a class="inclusive__btn price-btns button" href="#inner">Need an additional discount?</a>
+                <div class="addservices__row">
+                  <div class="addservices__left">
+                    <h3 class="addservices__left-title">Web Develpment</h3>
+                    <ul class="addservices__left-list">
+                      <li class="addservices__left-listitem"><span>Business</span>  website development</li>
+                      <li class="addservices__left-listitem">CRM Integration</li>
+                      <li class="addservices__left-listitem">Online store development</li>
+                    </ul>
+                  </div>
+                  <div class="addservices__items">
+                    <div class="addservices__item addservices__item--regular">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$900</li>
+                        <li class="addservices__item-listitem">$3,500</li>
+                        <li class="addservices__item-listitem">$500</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--core">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$810</li>
+                        <li class="addservices__item-listitem">$3,150</li>
+                        <li class="addservices__item-listitem">$450</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--pro">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$720</li>
+                        <li class="addservices__item-listitem">$2,800</li>
+                        <li class="addservices__item-listitem">$400</li>
+                      </ul>
+                    </div>
+                    <div class="addservices__item addservices__item--supreme">
+                      <ul class="addservices__item-list">
+                        <li class="addservices__item-listitem">$630</li>
+                        <li class="addservices__item-listitem">$2,450</li>
+                        <li class="addservices__item-listitem">$350</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="inclusive-wrapper" id="com__disc-first">
-              <div class="inclusive-shadow"></div>
-              <div class="inclusive__box box-seven">
-                <div class="inclusive__box-img">
-                  <img src="images/servi/web-ico.png" alt="" class="inclusive__img-first">
-                  <img src="images/servi/sun.png" alt="" class="inclusive-img-second">
+            <div class="showmore-box">
+              <button class="showmore showmore--popup btn">Get full price</button>
+              <div class="popup">
+                <div class="popup__inner">
+                  <h4 class="popup__title">Enter you e-mail and we will send price list</h4>
+                  <form class="popup__form" action="/">
+                    <div class="popup__row">
+                      <div class="popup__row-title">e-mail</div>
+                      <input class="popup__input input" type="email">
+                    </div>
+                    <button class="popup__btn btn" type="submit">Send</button>
+                  </form>
                 </div>
-                <div class="inclusive__content">
-                  <div class="inclusive__box-content">
-                    <div class="inclusive__heading">
-                      <h2 class="inclusive__heading-title">All Inclusive in Business Package</h2>
-                      <p class="inclusive__heading-text">The Business Package primarily caters to entrepreneurs and
-                        businesses in various industries, including startups, local businesses, and professional service
-                        providers. For those who seek to ensure a strong online and offline presence, attract their
-                        target audience and stimulate business growth through effective web development and marketing
-                        strategies.</p>
-                    </div>
-                    <div class="inclusive__info">
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Strategy and Management
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Website Design and Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Software Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          CMS & SEO
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Personal Manager
-                        </li>
-                      </ul>
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Digital Marketing
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Online & Offline Advertising
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Graphic Design
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Weekly Analytics and Reporting
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Pause or Cancel Anytime
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="inclusive__info-acc">
-                      <button class="inclusive__btn btn" id="acc-btn-pink">What's included?</button>
-                      <div id="inclusive-acc-pink">
-                        <ul class="inclusive__acc">
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Strategy and Management
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Website Design and Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Software Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            CMS & SEO
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Personal Manager
-                          </li>
-                        </ul>
-                        <ul class="inclusive__acc acc-sec">
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Digital Marketing
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Online & Offline Advertising
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Graphic Design
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Weekly Analytics and Reporting
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Pause or Cancel Anytime
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__box-price">
-                    <h2 class="inclusive__price-sale">12% off</h2>
-                    <h1 class="inclusive__price-title first">$10,499/<span>6 month</span></h1>
-                    <button class="inclusive__price-btn button">Subscribe Now</button>
-                    <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                  </div>
-                </div>
-                <div class="inclusive__btn-box">
-                  <a class="inclusive__btns button retur" href="#inner">Return to monthly subscription</a>
-                  <a class="inclusive__btn price-btns button" href="#inner">Need an additional discount?</a>
-                </div>
-              </div>
-            </div>
-            <div class="inclusive-wrapper" id="bus__disc-second">
-              <div class="inclusive-shadow"></div>
-              <div class="inclusive__box box-sex">
-                <div class="inclusive__box-img">
-                  <img src="images/servi/web-ico.png" alt="" class="inclusive__img-first">
-                  <img src="images/servi/sun.png" alt="" class="inclusive-img-second">
-                </div>
-                <div class="inclusive__content">
-                  <div class="inclusive__box-content">
-                    <div class="inclusive__heading">
-                      <h2 class="inclusive__heading-title">All Inclusive in E-Commerce Package</h2>
-                      <p class="inclusive__heading-text">The e-commerce package is designed for businesses of any size
-                        who want to sell goods or services online and who need a comprehensive solution to create an
-                        efficient and secure online store, manage inventory, process orders, optimize conversion rates
-                        and develop their e-commerce business.</p>
-                    </div>
-                    <div class="inclusive__info">
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Strategy and Management
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Online store Design & Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Mobile App Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          CMS & SEO
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          CRM Integration
-                        </li>
-                      </ul>
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Promotion Marketing
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Google,Instagram & FB Ads
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Advertising Design
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Conversion Optimization
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Pause or Cancel Anytime
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="inclusive__info-acc">
-                      <button class="inclusive__btn btn" id="acc-btn-second">What's included?</button>
-                      <div id="second-acc">
-                        <ul class="inclusive__acc">
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Strategy and Management
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Online store Design & Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Mobile App Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            CMS & SEO
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            CRM Integration
-                          </li>
-                        </ul>
-                        <ul class="inclusive__acc acc-sec">
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Promotion Marketing
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Google,Instagram & FB Ads
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Advertising Design
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Conversion Optimization
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Pause or Cancel Anytime
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__box-price">
-                    <h2 class="inclusive__price-sale">24% off</h2>
-                    <h1 class="inclusive__price-title first">$27,499/<span>year</span></h1>
-                    <button class="inclusive__price-btn button">Subscribe Now</button>
-                    <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                  </div>
-                </div>
-                <a class="inclusive__buttons button returns" href="#inner">Return to monthly subscription</a>
-              </div>
-            </div>
-            <div class="inclusive-wrapper" id="com__disc-second">
-              <div class="inclusive-shadow"></div>
-              <div class="inclusive__box box-eight">
-                <div class="inclusive__box-img">
-                  <img src="images/servi/web-ico.png" alt="" class="inclusive__img-first">
-                  <img src="images/servi/sun.png" alt="" class="inclusive-img-second">
-                </div>
-                <div class="inclusive__content">
-                  <div class="inclusive__box-content">
-                    <div class="inclusive__heading">
-                      <h2 class="inclusive__heading-title">All Inclusive in Business Package</h2>
-                      <p class="inclusive__heading-text">The Business Package primarily caters to entrepreneurs and
-                        businesses in various industries, including startups, local businesses, and professional service
-                        providers. For those who seek to ensure a strong online and offline presence, attract their
-                        target audience and stimulate business growth through effective web development and marketing
-                        strategies.</p>
-                    </div>
-                    <div class="inclusive__info">
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Strategy and Management
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Website Design and Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Software Development
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          CMS & SEO
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/servi/sun.png" alt="">
-                          Personal Manager
-                        </li>
-                      </ul>
-                      <ul class="inclusive__info-list">
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Digital Marketing
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Online & Offline Advertising
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Graphic Design
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Weekly Analytics and Reporting
-                        </li>
-                        <li class="inclusive__info-item">
-                          <img src="images/header/star.png" alt="">
-                          Pause or Cancel Anytime
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="inclusive__info-acc">
-                      <button class="inclusive__btn btn" id="acc-btn-last">What's included?</button>
-                      <div id="inclusive-acc-last">
-                        <ul class="inclusive__acc">
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Strategy and Management
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Website Design and Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Software Development
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            CMS & SEO
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/servi/sun.png" alt="">
-                            Personal Manager
-                          </li>
-                        </ul>
-                        <ul class="inclusive__acc acc-sec">
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Digital Marketing
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Online & Offline Advertising
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Graphic Design
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Weekly Analytics and Reporting
-                          </li>
-                          <li class="inclusive__acc-item">
-                            <img src="images/header/star.png" alt="">
-                            Pause or Cancel Anytime
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="inclusive__box-price">
-                    <h2 class="inclusive__price-sale">24% off</h2>
-                    <h1 class="inclusive__price-title first">$18,199/<span>year</span></h1>
-                    <button class="inclusive__price-btn button">Subscribe Now</button>
-                    <p class="inclusive__price-text">100% Satisfaction Guarantee</p>
-                  </div>
-                </div>
-                <a class="inclusive__buttons button returs" href="#inner">Return to monthly subscription</a>
               </div>
             </div>
           </div>
         </div>
         <span class="section-decor"></span>
-      </section>
+      </div>
       <section class="main__grow">
         <div class="container">
           <div class="grow__inner">
             <div class="grow__heading">
               <h1 class="grow__heading-title">We Help You Grow Your Business Without Growing Your Team</h1>
-              <!-- <p class="grow__heading-text">With Crokio, you can achieve significant cost savings compared to hiring your own team of 7 professionals (including web developer, marketing specialist, iOS developer, designer, project manager, UX/UI designer and content manager) with an average salary of <span id="price">$1999</span> per month versus <span id="prices">$1999</span> per month subscription. In addition, Crokio provides a wide range of tools and services for the effective implementation of online customer presence and marketing goals.</p> -->
-              <p class="grow__heading-text">With Crokio, you can achieve significant cost overruns compared to hiring
-                your own team of 7 professionals (including
-                web developer, marketing specialist, iOS developer, designer, project manager, UX/UI designer and
-                content manager) with
-                an average salary of <span id="prices">$46,600</span> per month versus <span id="prices">$2999</span>
-                per month subscription.<br>
-                In addition, Crokio provides a wide range of tools and services for the effective implementation of
-                online customer
-                presence and marketing goals.</p>
+              <p class="grow__heading-text fw-500">Delegate your online business's development and growth to Crokio,
+                benefiting from our extensive experience and
+                expertise. Save time and money while achieving real and impactful results.</p>
             </div>
             <div class="grow__acc-box">
               <ul class="grow__acc">
@@ -1389,10 +834,10 @@
                     <br>
                     1. Scope and Complexity: The size and complexity of the website or marketing strategy play a
                     significant role. A simple website with basic features may take less time compared to a complex
-                    e-commerce site with custom functionalities. Similarly, a basic marketing strategy may be quicker to
+                    e-commerce site with Custom functionalities. Similarly, a basic marketing strategy may be quicker to
                     develop than a comprehensive, multi-channel campaign.<br>
                     <br>
-                    2. Requirements and Customizations: The specific requirements and customizations you need will
+                    2. Requirements and Customizations: The specific requirements and Customizations you need will
                     affect the timeline. Unique design elements, integrations with other systems, or specific
                     functionalities can add time to the development process. Similarly, a detailed marketing strategy
                     that involves extensive research, targeting, and campaign planning will naturally require more
@@ -1491,7 +936,8 @@
     </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="js/slick.min.js"></script>
+  <!-- <script src="js/slick.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="//code.tidio.co/znaat17zqpowzqohmfihtwnnplq4aa9o.js" async></script>
   <script src="js/main.js"></script>
 </body>
