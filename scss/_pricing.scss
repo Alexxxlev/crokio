@@ -5,10 +5,6 @@
   z-index: 2;
 }
 
-.main__pricing {
-  margin-bottom: 60px;
-}
-
 .pricing__inner {
   width: 100%;
 }
@@ -230,9 +226,6 @@
 
 // 800px
 @media (max-width: 800px) {
-  .main__pricing {
-    margin-bottom: 50px;
-  }
 
   .card__box {
     display: flex;
@@ -312,12 +305,6 @@
 }
 
 // INCLUSIVE
-.main {
-  &__inclusive {
-    margin-bottom: 180px;
-  }
-}
-
 .inclusive__inner {
   padding: 80px 20px;
   display: flex;

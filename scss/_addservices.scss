@@ -1,0 +1,155 @@
+.addservices {
+  margin-bottom: 230px;
+
+  .section-decor {
+    top: 140px;
+  }
+
+  &__heading-title {
+    margin: 0 auto 35px;
+  }
+
+  &__heading-text {
+    max-width: 870px;
+  }
+
+  &__content {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    font-family: "Roboto Mono", monospace;
+
+    &::-webkit-scrollbar {
+      width: auto;
+      height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      /* плашка-бегунок */
+      background: $black-text;
+      border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-track {
+      /* фон */
+      background: $red;
+      border-radius: 20px;
+    }
+  }
+
+  &__content-inner {
+    width: 1160px;
+    min-height: 400px;
+    height: auto;
+  }
+
+  &__row {
+    margin-bottom: 17px;
+    display: grid;
+    grid-template-columns: 425px auto;
+    gap: 0 25px;
+    justify-content: space-between;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 50px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+      position: absolute;
+      left: auto;
+      right: auto;
+      bottom: -1px;
+    }
+
+    // &:first-child {
+    //   margin-bottom: 17px;
+    // }
+  }
+
+  &__left {
+    margin-bottom: 23px;
+    font-weight: 700;
+    color: $black-text;
+
+    &.mt-100 {
+      margin-top: 100px;
+    }
+  }
+
+  &__left-title {
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 111%;
+  }
+
+  &__left-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-size: 16px;
+    line-height: 111%;
+    text-transform: capitalize;
+  }
+
+  &__left-listitem {
+    .span-visible {
+      display: none;
+    }
+  }
+
+  &__items {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 111%;
+    color: $black-text;
+  }
+
+  &__item {
+    padding: 21px 10px 23px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: $white;
+
+    &--regular {
+      border-radius: 40px 0px 0px 0px;
+      background-color: #FBF6F6;
+      color: $black-text;
+    }
+
+    &--core {
+      background-color: $violet;
+    }
+
+    &--pro {
+      background: linear-gradient(180deg, #FF5903 0%, #FFC328 100%);
+    }
+
+    &--supreme {
+      border-radius: 0px 40px 0px 0px;
+      background: $black-text;
+    }
+  }
+
+  &__item-title {
+    margin-bottom: 10px;
+  }
+
+  &__item-sale {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $accent;
+  }
+
+  &__item-list {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+}
